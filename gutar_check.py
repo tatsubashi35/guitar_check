@@ -43,7 +43,7 @@ def upload_file():
             predicted = result.argmax()
             pred_answer = "このギターは " + classes[predicted] + " です"
 
-            return render_template("index.html",answer=pred_answer)
+            return render_template("index.html",answer=pred_answer, images=filepath)
 
     return render_template("index.html",answer="")
 
