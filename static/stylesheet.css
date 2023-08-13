@@ -40,6 +40,12 @@ p {
     text-align: center;
 }
 
+.image {
+    width: 30%;
+    display: block;
+    margin: 30px auto 0px;
+}
+
 form {
     text-align: center;
 }
