@@ -8,8 +8,7 @@ import numpy as np
 
 classes = ["レスポール型","テレキャスター型","アコースティックギター型","フライングブイ型"]
 image_size = 128
-
-UPLOAD_FOLDER = "uploads"
+UPLOAD_FOLDER = "static"
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 
 app = Flask(__name__)
